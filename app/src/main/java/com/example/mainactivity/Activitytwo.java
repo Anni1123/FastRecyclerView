@@ -21,9 +21,9 @@ public class Activitytwo extends AppCompatActivity {
         if(firstData==null){
             return;
         }
-        String firstMessgae=firstData.getString("firstmessgae");
+        String firstmessgae=firstData.getString("firstmessgae");
         final TextView SecondText =(TextView)findViewById(R.id.SecondText);
-        SecondText.setText(firstMessgae);
+        SecondText.setText(firstmessgae);
     }
 
 }
