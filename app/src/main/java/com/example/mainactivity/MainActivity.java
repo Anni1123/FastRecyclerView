@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onclick(View view){
-        Intent i=new Intent(this,AllItemsActivity.class);
+        Intent i=new Intent(this,WhatsNewLibrary.class);
 //        final EditText FirstInput =(EditText)findViewById(R.id.FirstInput);
 //        String usermessgae=FirstInput.getText().toString();
 //        i.putExtra("firstmessgae",usermessgae);
